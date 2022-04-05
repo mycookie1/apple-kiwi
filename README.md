@@ -1,1 +1,1 @@
-# appcademy-kiwi
+# apple-kiwi
