@@ -1,13 +1,13 @@
 //
-//  apple_kiwiUITestsLaunchTests.swift
-//  apple-kiwiUITests
+//  AppleKiwiUITestsLaunchTests.swift
+//  AppleKiwiUITests
 //
-//  Created by MBSoo on 2022/04/05.
+//  Created by MBSoo on 2022/04/06.
 //
 
 import XCTest
 
-class apple_kiwiUITestsLaunchTests: XCTestCase {
+class AppleKiwiUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

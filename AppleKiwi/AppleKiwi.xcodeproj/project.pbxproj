@@ -7,61 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8315CF2C27FC357700D0D66D /* apple_kiwiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315CF2B27FC357700D0D66D /* apple_kiwiApp.swift */; };
-		8315CF2E27FC357700D0D66D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315CF2D27FC357700D0D66D /* ContentView.swift */; };
-		8315CF3027FC357800D0D66D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8315CF2F27FC357800D0D66D /* Assets.xcassets */; };
-		8315CF3327FC357800D0D66D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8315CF3227FC357800D0D66D /* Preview Assets.xcassets */; };
-		8315CF3D27FC357800D0D66D /* apple_kiwiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315CF3C27FC357800D0D66D /* apple_kiwiTests.swift */; };
-		8315CF4727FC357800D0D66D /* apple_kiwiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315CF4627FC357800D0D66D /* apple_kiwiUITests.swift */; };
-		8315CF4927FC357800D0D66D /* apple_kiwiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8315CF4827FC357800D0D66D /* apple_kiwiUITestsLaunchTests.swift */; };
+		83C762EF27FD685100FDC8D0 /* AppleKiwiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C762EE27FD685100FDC8D0 /* AppleKiwiApp.swift */; };
+		83C762F127FD685100FDC8D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C762F027FD685100FDC8D0 /* ContentView.swift */; };
+		83C762F327FD685200FDC8D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C762F227FD685200FDC8D0 /* Assets.xcassets */; };
+		83C762F627FD685200FDC8D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83C762F527FD685200FDC8D0 /* Preview Assets.xcassets */; };
+		83C7630027FD685200FDC8D0 /* AppleKiwiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C762FF27FD685200FDC8D0 /* AppleKiwiTests.swift */; };
+		83C7630A27FD685200FDC8D0 /* AppleKiwiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7630927FD685200FDC8D0 /* AppleKiwiUITests.swift */; };
+		83C7630C27FD685200FDC8D0 /* AppleKiwiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83C7630B27FD685200FDC8D0 /* AppleKiwiUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		8315CF3927FC357800D0D66D /* PBXContainerItemProxy */ = {
+		83C762FC27FD685200FDC8D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8315CF2027FC357700D0D66D /* Project object */;
+			containerPortal = 83C762E327FD685100FDC8D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8315CF2727FC357700D0D66D;
-			remoteInfo = "apple-kiwi";
+			remoteGlobalIDString = 83C762EA27FD685100FDC8D0;
+			remoteInfo = AppleKiwi;
 		};
-		8315CF4327FC357800D0D66D /* PBXContainerItemProxy */ = {
+		83C7630627FD685200FDC8D0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 8315CF2027FC357700D0D66D /* Project object */;
+			containerPortal = 83C762E327FD685100FDC8D0 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 8315CF2727FC357700D0D66D;
-			remoteInfo = "apple-kiwi";
+			remoteGlobalIDString = 83C762EA27FD685100FDC8D0;
+			remoteInfo = AppleKiwi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8315CF2827FC357700D0D66D /* apple-kiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "apple-kiwi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8315CF2B27FC357700D0D66D /* apple_kiwiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_kiwiApp.swift; sourceTree = "<group>"; };
-		8315CF2D27FC357700D0D66D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		8315CF2F27FC357800D0D66D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		8315CF3227FC357800D0D66D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		8315CF3827FC357800D0D66D /* apple-kiwiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-kiwiTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8315CF3C27FC357800D0D66D /* apple_kiwiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_kiwiTests.swift; sourceTree = "<group>"; };
-		8315CF4227FC357800D0D66D /* apple-kiwiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "apple-kiwiUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8315CF4627FC357800D0D66D /* apple_kiwiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_kiwiUITests.swift; sourceTree = "<group>"; };
-		8315CF4827FC357800D0D66D /* apple_kiwiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = apple_kiwiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		83C762EB27FD685100FDC8D0 /* AppleKiwi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleKiwi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C762EE27FD685100FDC8D0 /* AppleKiwiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleKiwiApp.swift; sourceTree = "<group>"; };
+		83C762F027FD685100FDC8D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		83C762F227FD685200FDC8D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		83C762F527FD685200FDC8D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		83C762FB27FD685200FDC8D0 /* AppleKiwiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleKiwiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C762FF27FD685200FDC8D0 /* AppleKiwiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleKiwiTests.swift; sourceTree = "<group>"; };
+		83C7630527FD685200FDC8D0 /* AppleKiwiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppleKiwiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83C7630927FD685200FDC8D0 /* AppleKiwiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleKiwiUITests.swift; sourceTree = "<group>"; };
+		83C7630B27FD685200FDC8D0 /* AppleKiwiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleKiwiUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8315CF2527FC357700D0D66D /* Frameworks */ = {
+		83C762E827FD685100FDC8D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF3527FC357800D0D66D /* Frameworks */ = {
+		83C762F827FD685200FDC8D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF3F27FC357800D0D66D /* Frameworks */ = {
+		83C7630227FD685200FDC8D0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -71,142 +71,142 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8315CF1F27FC357700D0D66D = {
+		83C762E227FD685100FDC8D0 = {
 			isa = PBXGroup;
 			children = (
-				8315CF2A27FC357700D0D66D /* apple-kiwi */,
-				8315CF3B27FC357800D0D66D /* apple-kiwiTests */,
-				8315CF4527FC357800D0D66D /* apple-kiwiUITests */,
-				8315CF2927FC357700D0D66D /* Products */,
+				83C762ED27FD685100FDC8D0 /* AppleKiwi */,
+				83C762FE27FD685200FDC8D0 /* AppleKiwiTests */,
+				83C7630827FD685200FDC8D0 /* AppleKiwiUITests */,
+				83C762EC27FD685100FDC8D0 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8315CF2927FC357700D0D66D /* Products */ = {
+		83C762EC27FD685100FDC8D0 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8315CF2827FC357700D0D66D /* apple-kiwi.app */,
-				8315CF3827FC357800D0D66D /* apple-kiwiTests.xctest */,
-				8315CF4227FC357800D0D66D /* apple-kiwiUITests.xctest */,
+				83C762EB27FD685100FDC8D0 /* AppleKiwi.app */,
+				83C762FB27FD685200FDC8D0 /* AppleKiwiTests.xctest */,
+				83C7630527FD685200FDC8D0 /* AppleKiwiUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8315CF2A27FC357700D0D66D /* apple-kiwi */ = {
+		83C762ED27FD685100FDC8D0 /* AppleKiwi */ = {
 			isa = PBXGroup;
 			children = (
-				8315CF2B27FC357700D0D66D /* apple_kiwiApp.swift */,
-				8315CF2D27FC357700D0D66D /* ContentView.swift */,
-				8315CF2F27FC357800D0D66D /* Assets.xcassets */,
-				8315CF3127FC357800D0D66D /* Preview Content */,
+				83C762EE27FD685100FDC8D0 /* AppleKiwiApp.swift */,
+				83C762F027FD685100FDC8D0 /* ContentView.swift */,
+				83C762F227FD685200FDC8D0 /* Assets.xcassets */,
+				83C762F427FD685200FDC8D0 /* Preview Content */,
 			);
-			path = "apple-kiwi";
+			path = AppleKiwi;
 			sourceTree = "<group>";
 		};
-		8315CF3127FC357800D0D66D /* Preview Content */ = {
+		83C762F427FD685200FDC8D0 /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				8315CF3227FC357800D0D66D /* Preview Assets.xcassets */,
+				83C762F527FD685200FDC8D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		8315CF3B27FC357800D0D66D /* apple-kiwiTests */ = {
+		83C762FE27FD685200FDC8D0 /* AppleKiwiTests */ = {
 			isa = PBXGroup;
 			children = (
-				8315CF3C27FC357800D0D66D /* apple_kiwiTests.swift */,
+				83C762FF27FD685200FDC8D0 /* AppleKiwiTests.swift */,
 			);
-			path = "apple-kiwiTests";
+			path = AppleKiwiTests;
 			sourceTree = "<group>";
 		};
-		8315CF4527FC357800D0D66D /* apple-kiwiUITests */ = {
+		83C7630827FD685200FDC8D0 /* AppleKiwiUITests */ = {
 			isa = PBXGroup;
 			children = (
-				8315CF4627FC357800D0D66D /* apple_kiwiUITests.swift */,
-				8315CF4827FC357800D0D66D /* apple_kiwiUITestsLaunchTests.swift */,
+				83C7630927FD685200FDC8D0 /* AppleKiwiUITests.swift */,
+				83C7630B27FD685200FDC8D0 /* AppleKiwiUITestsLaunchTests.swift */,
 			);
-			path = "apple-kiwiUITests";
+			path = AppleKiwiUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8315CF2727FC357700D0D66D /* apple-kiwi */ = {
+		83C762EA27FD685100FDC8D0 /* AppleKiwi */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8315CF4C27FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwi" */;
+			buildConfigurationList = 83C7630F27FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwi" */;
 			buildPhases = (
-				8315CF2427FC357700D0D66D /* Sources */,
-				8315CF2527FC357700D0D66D /* Frameworks */,
-				8315CF2627FC357700D0D66D /* Resources */,
+				83C762E727FD685100FDC8D0 /* Sources */,
+				83C762E827FD685100FDC8D0 /* Frameworks */,
+				83C762E927FD685100FDC8D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "apple-kiwi";
-			productName = "apple-kiwi";
-			productReference = 8315CF2827FC357700D0D66D /* apple-kiwi.app */;
+			name = AppleKiwi;
+			productName = AppleKiwi;
+			productReference = 83C762EB27FD685100FDC8D0 /* AppleKiwi.app */;
 			productType = "com.apple.product-type.application";
 		};
-		8315CF3727FC357800D0D66D /* apple-kiwiTests */ = {
+		83C762FA27FD685200FDC8D0 /* AppleKiwiTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8315CF4F27FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwiTests" */;
+			buildConfigurationList = 83C7631227FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwiTests" */;
 			buildPhases = (
-				8315CF3427FC357800D0D66D /* Sources */,
-				8315CF3527FC357800D0D66D /* Frameworks */,
-				8315CF3627FC357800D0D66D /* Resources */,
+				83C762F727FD685200FDC8D0 /* Sources */,
+				83C762F827FD685200FDC8D0 /* Frameworks */,
+				83C762F927FD685200FDC8D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8315CF3A27FC357800D0D66D /* PBXTargetDependency */,
+				83C762FD27FD685200FDC8D0 /* PBXTargetDependency */,
 			);
-			name = "apple-kiwiTests";
-			productName = "apple-kiwiTests";
-			productReference = 8315CF3827FC357800D0D66D /* apple-kiwiTests.xctest */;
+			name = AppleKiwiTests;
+			productName = AppleKiwiTests;
+			productReference = 83C762FB27FD685200FDC8D0 /* AppleKiwiTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		8315CF4127FC357800D0D66D /* apple-kiwiUITests */ = {
+		83C7630427FD685200FDC8D0 /* AppleKiwiUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8315CF5227FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwiUITests" */;
+			buildConfigurationList = 83C7631527FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwiUITests" */;
 			buildPhases = (
-				8315CF3E27FC357800D0D66D /* Sources */,
-				8315CF3F27FC357800D0D66D /* Frameworks */,
-				8315CF4027FC357800D0D66D /* Resources */,
+				83C7630127FD685200FDC8D0 /* Sources */,
+				83C7630227FD685200FDC8D0 /* Frameworks */,
+				83C7630327FD685200FDC8D0 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8315CF4427FC357800D0D66D /* PBXTargetDependency */,
+				83C7630727FD685200FDC8D0 /* PBXTargetDependency */,
 			);
-			name = "apple-kiwiUITests";
-			productName = "apple-kiwiUITests";
-			productReference = 8315CF4227FC357800D0D66D /* apple-kiwiUITests.xctest */;
+			name = AppleKiwiUITests;
+			productName = AppleKiwiUITests;
+			productReference = 83C7630527FD685200FDC8D0 /* AppleKiwiUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8315CF2027FC357700D0D66D /* Project object */ = {
+		83C762E327FD685100FDC8D0 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1330;
 				LastUpgradeCheck = 1330;
 				TargetAttributes = {
-					8315CF2727FC357700D0D66D = {
+					83C762EA27FD685100FDC8D0 = {
 						CreatedOnToolsVersion = 13.3;
 					};
-					8315CF3727FC357800D0D66D = {
+					83C762FA27FD685200FDC8D0 = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 8315CF2727FC357700D0D66D;
+						TestTargetID = 83C762EA27FD685100FDC8D0;
 					};
-					8315CF4127FC357800D0D66D = {
+					83C7630427FD685200FDC8D0 = {
 						CreatedOnToolsVersion = 13.3;
-						TestTargetID = 8315CF2727FC357700D0D66D;
+						TestTargetID = 83C762EA27FD685100FDC8D0;
 					};
 				};
 			};
-			buildConfigurationList = 8315CF2327FC357700D0D66D /* Build configuration list for PBXProject "apple-kiwi" */;
+			buildConfigurationList = 83C762E627FD685100FDC8D0 /* Build configuration list for PBXProject "AppleKiwi" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,36 +214,36 @@
 				en,
 				Base,
 			);
-			mainGroup = 8315CF1F27FC357700D0D66D;
-			productRefGroup = 8315CF2927FC357700D0D66D /* Products */;
+			mainGroup = 83C762E227FD685100FDC8D0;
+			productRefGroup = 83C762EC27FD685100FDC8D0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8315CF2727FC357700D0D66D /* apple-kiwi */,
-				8315CF3727FC357800D0D66D /* apple-kiwiTests */,
-				8315CF4127FC357800D0D66D /* apple-kiwiUITests */,
+				83C762EA27FD685100FDC8D0 /* AppleKiwi */,
+				83C762FA27FD685200FDC8D0 /* AppleKiwiTests */,
+				83C7630427FD685200FDC8D0 /* AppleKiwiUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		8315CF2627FC357700D0D66D /* Resources */ = {
+		83C762E927FD685100FDC8D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8315CF3327FC357800D0D66D /* Preview Assets.xcassets in Resources */,
-				8315CF3027FC357800D0D66D /* Assets.xcassets in Resources */,
+				83C762F627FD685200FDC8D0 /* Preview Assets.xcassets in Resources */,
+				83C762F327FD685200FDC8D0 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF3627FC357800D0D66D /* Resources */ = {
+		83C762F927FD685200FDC8D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF4027FC357800D0D66D /* Resources */ = {
+		83C7630327FD685200FDC8D0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -253,49 +253,49 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8315CF2427FC357700D0D66D /* Sources */ = {
+		83C762E727FD685100FDC8D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8315CF2E27FC357700D0D66D /* ContentView.swift in Sources */,
-				8315CF2C27FC357700D0D66D /* apple_kiwiApp.swift in Sources */,
+				83C762F127FD685100FDC8D0 /* ContentView.swift in Sources */,
+				83C762EF27FD685100FDC8D0 /* AppleKiwiApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF3427FC357800D0D66D /* Sources */ = {
+		83C762F727FD685200FDC8D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8315CF3D27FC357800D0D66D /* apple_kiwiTests.swift in Sources */,
+				83C7630027FD685200FDC8D0 /* AppleKiwiTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8315CF3E27FC357800D0D66D /* Sources */ = {
+		83C7630127FD685200FDC8D0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8315CF4727FC357800D0D66D /* apple_kiwiUITests.swift in Sources */,
-				8315CF4927FC357800D0D66D /* apple_kiwiUITestsLaunchTests.swift in Sources */,
+				83C7630A27FD685200FDC8D0 /* AppleKiwiUITests.swift in Sources */,
+				83C7630C27FD685200FDC8D0 /* AppleKiwiUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8315CF3A27FC357800D0D66D /* PBXTargetDependency */ = {
+		83C762FD27FD685200FDC8D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8315CF2727FC357700D0D66D /* apple-kiwi */;
-			targetProxy = 8315CF3927FC357800D0D66D /* PBXContainerItemProxy */;
+			target = 83C762EA27FD685100FDC8D0 /* AppleKiwi */;
+			targetProxy = 83C762FC27FD685200FDC8D0 /* PBXContainerItemProxy */;
 		};
-		8315CF4427FC357800D0D66D /* PBXTargetDependency */ = {
+		83C7630727FD685200FDC8D0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 8315CF2727FC357700D0D66D /* apple-kiwi */;
-			targetProxy = 8315CF4327FC357800D0D66D /* PBXContainerItemProxy */;
+			target = 83C762EA27FD685100FDC8D0 /* AppleKiwi */;
+			targetProxy = 83C7630627FD685200FDC8D0 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		8315CF4A27FC357800D0D66D /* Debug */ = {
+		83C7630D27FD685200FDC8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -355,7 +355,7 @@
 			};
 			name = Debug;
 		};
-		8315CF4B27FC357800D0D66D /* Release */ = {
+		83C7630E27FD685200FDC8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,14 +409,14 @@
 			};
 			name = Release;
 		};
-		8315CF4D27FC357800D0D66D /* Debug */ = {
+		83C7631027FD685200FDC8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"apple-kiwi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleKiwi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -429,7 +429,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwi";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -437,14 +437,14 @@
 			};
 			name = Debug;
 		};
-		8315CF4E27FC357800D0D66D /* Release */ = {
+		83C7631127FD685200FDC8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"apple-kiwi/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"AppleKiwi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -457,7 +457,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwi";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -465,7 +465,7 @@
 			};
 			name = Release;
 		};
-		8315CF5027FC357800D0D66D /* Debug */ = {
+		83C7631327FD685200FDC8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -475,16 +475,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwiTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-kiwi.app/apple-kiwi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleKiwi.app/AppleKiwi";
 			};
 			name = Debug;
 		};
-		8315CF5127FC357800D0D66D /* Release */ = {
+		83C7631427FD685200FDC8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -494,16 +494,16 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwiTests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwiTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/apple-kiwi.app/apple-kiwi";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppleKiwi.app/AppleKiwi";
 			};
 			name = Release;
 		};
-		8315CF5327FC357800D0D66D /* Debug */ = {
+		83C7631627FD685200FDC8D0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,16 +511,16 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwiUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "apple-kiwi";
+				TEST_TARGET_NAME = AppleKiwi;
 			};
 			name = Debug;
 		};
-		8315CF5427FC357800D0D66D /* Release */ = {
+		83C7631727FD685200FDC8D0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -528,55 +528,55 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Buckil.apple-kiwiUITests";
+				PRODUCT_BUNDLE_IDENTIFIER = com.Buckil.AppleKiwiUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = "apple-kiwi";
+				TEST_TARGET_NAME = AppleKiwi;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8315CF2327FC357700D0D66D /* Build configuration list for PBXProject "apple-kiwi" */ = {
+		83C762E627FD685100FDC8D0 /* Build configuration list for PBXProject "AppleKiwi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8315CF4A27FC357800D0D66D /* Debug */,
-				8315CF4B27FC357800D0D66D /* Release */,
+				83C7630D27FD685200FDC8D0 /* Debug */,
+				83C7630E27FD685200FDC8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8315CF4C27FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwi" */ = {
+		83C7630F27FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8315CF4D27FC357800D0D66D /* Debug */,
-				8315CF4E27FC357800D0D66D /* Release */,
+				83C7631027FD685200FDC8D0 /* Debug */,
+				83C7631127FD685200FDC8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8315CF4F27FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwiTests" */ = {
+		83C7631227FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwiTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8315CF5027FC357800D0D66D /* Debug */,
-				8315CF5127FC357800D0D66D /* Release */,
+				83C7631327FD685200FDC8D0 /* Debug */,
+				83C7631427FD685200FDC8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8315CF5227FC357800D0D66D /* Build configuration list for PBXNativeTarget "apple-kiwiUITests" */ = {
+		83C7631527FD685200FDC8D0 /* Build configuration list for PBXNativeTarget "AppleKiwiUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8315CF5327FC357800D0D66D /* Debug */,
-				8315CF5427FC357800D0D66D /* Release */,
+				83C7631627FD685200FDC8D0 /* Debug */,
+				83C7631727FD685200FDC8D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8315CF2027FC357700D0D66D /* Project object */;
+	rootObject = 83C762E327FD685100FDC8D0 /* Project object */;
 }

@@ -1,13 +1,13 @@
 //
-//  apple_kiwiUITests.swift
-//  apple-kiwiUITests
+//  AppleKiwiUITests.swift
+//  AppleKiwiUITests
 //
-//  Created by MBSoo on 2022/04/05.
+//  Created by MBSoo on 2022/04/06.
 //
 
 import XCTest
 
-class apple_kiwiUITests: XCTestCase {
+class AppleKiwiUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
